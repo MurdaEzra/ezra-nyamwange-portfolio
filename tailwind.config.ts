@@ -109,7 +109,8 @@ export default {
 			},
 			fontFamily: {
 				sans: ['Inter', 'sans-serif'],
-				mono: ['Fira Code', 'monospace']
+				mono: ['Fira Code', 'monospace'],
+				vivaldi: ['Vivaldi', 'cursive', 'Arial']
 			}
 		}
 	},

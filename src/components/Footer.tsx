@@ -12,12 +12,12 @@ const Footer = () => {
           <div className="mb-6 md:mb-0">
             <div className="flex items-center">
               <div className="w-10 h-10 rounded-full bg-portfolio-purple flex items-center justify-center text-white font-bold text-xl">
-                EN
+                EMN
               </div>
-              <span className="ml-2 text-lg font-semibold">Ezra Nyamwange</span>
+              <span className="ml-2 text-lg font-semibold font-vivaldi">Ezra Moseti Nyamwange</span>
             </div>
             <p className="mt-2 text-gray-400 max-w-md">
-              Software Engineer & Computer Science Student passionate about building elegant solutions through code.
+              Front-end & Back-end Developer passionate about building elegant solutions through code.
             </p>
           </div>
           
@@ -44,7 +44,7 @@ const Footer = () => {
               </a>
               
               <a 
-                href="mailto:contact@ezranyamwange.com" 
+                href="mailto:ezranyamwange895@gmail.com" 
                 className="bg-white/10 hover:bg-white/20 p-2 rounded-full transition-colors"
                 aria-label="Email"
               >
@@ -53,7 +53,7 @@ const Footer = () => {
             </div>
             
             <p className="text-gray-400 text-sm">
-              &copy; {currentYear} Ezra Nyamwange. All rights reserved.
+              &copy; {currentYear} Ezra Moseti Nyamwange. All rights reserved.
             </p>
           </div>
         </div>

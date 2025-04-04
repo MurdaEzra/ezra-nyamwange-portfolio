@@ -44,12 +44,12 @@ const ContactSection = () => {
   };
 
   return (
-    <section id="contact" className="py-20 bg-white">
+    <section id="contact" className="py-20 bg-white dark:bg-gray-900">
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold mb-3">Contact Me</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-3 font-vivaldi dark:text-white">Contact Me</h2>
           <div className="w-20 h-1 bg-portfolio-purple mx-auto"></div>
-          <p className="mt-4 text-gray-600 max-w-2xl mx-auto">
+          <p className="mt-4 text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
             Feel free to reach out if you're looking to collaborate, have questions, 
             or just want to connect!
           </p>
@@ -77,7 +77,7 @@ const ContactSection = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold">Email</h4>
-                    <p className="mt-1">contact@ezranyamwange.com</p>
+                    <p className="mt-1">ezranyamwange895@gmail.com</p>
                   </div>
                 </div>
                 
@@ -112,13 +112,13 @@ const ContactSection = () => {
           </div>
           
           <div className="lg:w-2/3">
-            <div className="bg-white rounded-xl shadow-lg p-8">
-              <h3 className="text-2xl font-bold mb-6">Send Me a Message</h3>
+            <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-8">
+              <h3 className="text-2xl font-bold mb-6 dark:text-white">Send Me a Message</h3>
               
               <form onSubmit={handleSubmit} className="space-y-4">
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div className="space-y-2">
-                    <label htmlFor="name" className="text-sm font-medium">
+                    <label htmlFor="name" className="text-sm font-medium dark:text-gray-300">
                       Your Name
                     </label>
                     <Input
@@ -128,11 +128,12 @@ const ContactSection = () => {
                       value={formData.name}
                       onChange={handleChange}
                       required
+                      className="dark:bg-gray-700 dark:text-white dark:border-gray-600"
                     />
                   </div>
                   
                   <div className="space-y-2">
-                    <label htmlFor="email" className="text-sm font-medium">
+                    <label htmlFor="email" className="text-sm font-medium dark:text-gray-300">
                       Your Email
                     </label>
                     <Input
@@ -143,12 +144,13 @@ const ContactSection = () => {
                       value={formData.email}
                       onChange={handleChange}
                       required
+                      className="dark:bg-gray-700 dark:text-white dark:border-gray-600"
                     />
                   </div>
                 </div>
                 
                 <div className="space-y-2">
-                  <label htmlFor="subject" className="text-sm font-medium">
+                  <label htmlFor="subject" className="text-sm font-medium dark:text-gray-300">
                     Subject
                   </label>
                   <Input
@@ -158,11 +160,12 @@ const ContactSection = () => {
                     value={formData.subject}
                     onChange={handleChange}
                     required
+                    className="dark:bg-gray-700 dark:text-white dark:border-gray-600"
                   />
                 </div>
                 
                 <div className="space-y-2">
-                  <label htmlFor="message" className="text-sm font-medium">
+                  <label htmlFor="message" className="text-sm font-medium dark:text-gray-300">
                     Message
                   </label>
                   <Textarea
@@ -173,6 +176,7 @@ const ContactSection = () => {
                     value={formData.message}
                     onChange={handleChange}
                     required
+                    className="dark:bg-gray-700 dark:text-white dark:border-gray-600"
                   />
                 </div>
                 

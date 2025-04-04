@@ -11,7 +11,7 @@ const HeroSection = () => {
         className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat"
         style={{ backgroundImage: "url('https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&q=80')" }}
       >
-        <div className="absolute inset-0 bg-portfolio-dark/70"></div>
+        <div className="absolute inset-0 bg-portfolio-dark/70 dark:bg-portfolio-dark/90"></div>
       </div>
       
       {/* Animated particles (CSS dots) */}
@@ -35,10 +35,10 @@ const HeroSection = () => {
         <div className="flex flex-col md:flex-row items-center md:items-start justify-center md:justify-between">
           <div className="max-w-2xl animate-fade-in">
             <h1 className="text-4xl md:text-6xl font-bold text-white mb-4">
-              Hello, I'm <span className="text-portfolio-purple">Ezra Nyamwange</span>
+              Hello, I'm <span className="text-portfolio-purple font-vivaldi">Ezra Moseti Nyamwange</span>
             </h1>
             <h2 className="text-xl md:text-2xl text-white/90 mb-6">
-              Software Engineer & Computer Science Student
+              Front-end & Back-end Developer
             </h2>
             <p className="text-white/80 mb-8 text-lg">
               Building elegant solutions through code and creativity. I'm passionate about developing 
@@ -77,9 +77,9 @@ const HeroSection = () => {
           <div className="hidden md:block mt-10 md:mt-0">
             <div className="relative">
               <div className="w-64 h-64 rounded-full bg-portfolio-purple/20 backdrop-blur-sm border border-white/30 flex items-center justify-center">
-                <div className="text-6xl font-bold text-white">EN</div>
+                <div className="text-6xl font-bold text-white">EMN</div>
               </div>
-              <div className="absolute -bottom-4 -right-4 bg-white p-3 rounded-lg shadow-lg">
+              <div className="absolute -bottom-4 -right-4 bg-white p-3 rounded-lg shadow-lg dark:bg-gray-800">
                 <p className="font-mono text-sm">
                   <span className="text-portfolio-purple">&lt;code&gt;</span> 
                   <span className="animate-pulse">|</span>
