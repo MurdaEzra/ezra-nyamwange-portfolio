@@ -1,73 +1,57 @@
-# Welcome to your Lovable project
+Ezra Nyamwange - Web Developer Portfolio
+Welcome to my portfolio! My name is Ezra Nyamwange, and I am a passionate and dedicated web developer with expertise in both frontend and backend development. I specialize in building dynamic and responsive websites and applications, utilizing modern technologies and frameworks to deliver top-notch user experiences.
 
-## Project info
+About Me
+I am a versatile developer with the ability to handle both client-side and server-side development. With a strong foundation in coding principles and best practices, I bring an innovative approach to problem-solving, ensuring that I create solutions that are both functional and aesthetically pleasing.
 
-**URL**: https://lovable.dev/projects/25ed35b7-16c6-4207-8ba0-ac3c5db3651b
+Skills
+Frontend Development: HTML, CSS, JavaScript, React, Vue.js, Bootstrap, Tailwind CSS
 
-## How can I edit this code?
+Backend Development: Node.js, Express, PHP, Python, MongoDB, MySQL
 
-There are several ways of editing your application.
+Version Control: Git, GitHub
 
-**Use Lovable**
+API Integration: RESTful APIs, GraphQL
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/25ed35b7-16c6-4207-8ba0-ac3c5db3651b) and start prompting.
+Tools: VS Code, Postman, npm, Webpack
 
-Changes made via Lovable will be committed automatically to this repo.
+Others: Agile Methodologies, UI/UX Design, Responsive Design
 
-**Use your preferred IDE**
+Education
+Bachelor’s Degree in Computer Science
+Co-operative University
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Software Engineering Certificate
+PLP Academy
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+High School Certificate (A-)
+Kisii School
 
-Follow these steps:
+Projects
+E-commerce Platform: A full-fledged e-commerce platform allowing users to browse products, make purchases, and manage orders.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Task Management App: An app designed to help users manage tasks, set deadlines, and track their progress.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Weather Dashboard: A dynamic weather dashboard that pulls real-time data from an external API to provide weather information.
 
-# Step 3: Install the necessary dependencies.
-npm i
+Blog Platform: A blog platform where users can create, edit, and delete blog posts, with user authentication and commenting features.
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+Professional Interests
+Web Development
 
-**Edit a file directly in GitHub**
+Machine Learning
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Mobile Development
 
-**Use GitHub Codespaces**
+Cloud Computing
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Contact Me
+You can reach me via the following platforms:
 
-## What technologies are used for this project?
+Email: ezranyamwange895@gmail.com
 
-This project is built with:
+GitHub: github.com/MurdaEzra
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+LinkedIn: linkedin.com/in/ezra-nyamwange
 
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/25ed35b7-16c6-4207-8ba0-ac3c5db3651b) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes it is!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Thank you for checking out my portfolio! I look forward to connecting and collaborating on exciting web development projects.
